@@ -25,7 +25,7 @@ const LandSelectionScreen: React.FC<LandSelectionScreenProps> = ({ park, onSelec
         {park.grandQuest && (
           <button
             onClick={() => onSelectQuest(park.grandQuest!)}
-            className="w-full text-left p-4 bg-yellow-500 bg-opacity-10 hover:bg-yellow-500 hover:bg-opacity-20 border-2 border-yellow-400 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-400/30"
+            className="w-full text-left p-4 bg-yellow-500/10 hover:bg-yellow-500/20 border-2 border-yellow-400 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-yellow-400/30"
           >
             <div className="flex items-center gap-4">
               <div className="p-3 rounded-full bg-yellow-400 text-purple-900">
@@ -39,13 +39,13 @@ const LandSelectionScreen: React.FC<LandSelectionScreenProps> = ({ park, onSelec
           </button>
         )}
 
-        {park.grandQuest && <hr className="border-yellow-200 border-opacity-20" />}
+        {park.grandQuest && <hr className="border-yellow-200/20" />}
         
         {park.lands.map(land => (
           <button
             key={land.id}
             onClick={() => onSelectLand(land)}
-            className="w-full text-left p-4 bg-black bg-opacity-20 hover:bg-black hover:bg-opacity-40 border border-purple-400 rounded-lg transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:shadow-lg hover:shadow-purple-500/20"
+            className="w-full text-left p-4 bg-black/20 hover:bg-black/40 border border-purple-400 rounded-lg transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:shadow-lg hover:shadow-purple-500/20"
           >
             <div>
               <h2 className="font-bold text-xl text-yellow-400">{land.name}</h2>

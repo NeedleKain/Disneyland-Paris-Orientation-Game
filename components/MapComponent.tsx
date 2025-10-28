@@ -24,7 +24,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ userPosition, riddleLocatio
   const riddleLatLng: [number, number] = [riddleLocation.latitude, riddleLocation.longitude];
 
   return (
-    <div className="mt-4 h-80 w-full rounded-lg overflow-hidden border-2 border-green-400 border-opacity-50 animate-fade-in">
+    <div className="mt-4 h-80 w-full rounded-lg overflow-hidden border-2 border-green-400/50 animate-fade-in">
       <MapContainer center={riddleLatLng} zoom={15} scrollWheelZoom={true} style={{ height: '100%', width: '100%' }}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

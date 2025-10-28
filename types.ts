@@ -1,5 +1,4 @@
-// FIX: Add React import to provide the JSX namespace.
-import React from 'react';
+import type { ReactNode } from 'react';
 
 export interface Coordinates {
   latitude: number;
@@ -7,12 +6,12 @@ export interface Coordinates {
 }
 
 export interface Riddle {
-  id: string;
+  id: number;
   question: string;
   answer: string;
-  hint: string;
   location: Coordinates;
   locationName: string;
+  hint: string;
   image: string;
 }
 
@@ -20,12 +19,7 @@ export interface Quest {
   id: string;
   title: string;
   description: string;
-  // FIX: Changed type from React.ReactNode to the more specific JSX.Element
-  // FIX: Changed JSX.Element to React.ReactElement to resolve "Cannot find namespace 'JSX'" error.
-  icon: React.ReactElement;
-  narrator: string;
-  prologue: string;
-  epilogue: string;
+  icon: ReactNode;
   riddles: Riddle[];
 }
 
@@ -33,8 +27,8 @@ export interface Theme {
   primary: string;
   accent: string;
   text: string;
-  containerBg: string;
   backgroundGradient: string;
+  containerBg: string;
   buttonText: string;
 }
 

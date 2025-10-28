@@ -1,40 +1,22 @@
+
 import React from 'react';
-import type { Quest } from '../types';
-import { SparkleIcon } from './icons/SparkleIcon';
 
 interface CompletionScreenProps {
-  quest: Quest;
-  onFinish: () => void;
+  onRestart: () => void;
 }
 
-const CompletionScreen: React.FC<CompletionScreenProps> = ({ quest, onFinish }) => {
+const CompletionScreen: React.FC<CompletionScreenProps> = ({ onRestart }) => {
   return (
-    <div className="text-center p-8 rounded-2xl magic-container animate-fade-in-slow">
-      <div className="flex justify-center items-center mb-4">
-        <SparkleIcon />
-        <h1 className="text-3xl md:text-4xl font-bold ml-2" style={{ color: 'var(--accent-color)'}}>Quête Accomplie !</h1>
-        <SparkleIcon />
-      </div>
-
-      <h2 className="text-2xl font-semibold mb-4" style={{ color: 'var(--text-color)' }}>
-        {quest.title}
-      </h2>
-
-      <div className="mb-8 text-lg" style={{ color: 'var(--text-color)' }}>
-        <p className="italic">"{quest.epilogue}"</p>
-        <p className="text-right mt-2 font-magic text-base tracking-wider opacity-90">— {quest.narrator}</p>
-      </div>
-
+    <div className="text-center p-8 rounded-2xl magic-container">
+      <h1 className="text-4xl md:text-5xl font-bold text-yellow-300 mb-4 tracking-wider">Félicitations !</h1>
+      <p className="text-lg md:text-xl text-gray-200 mb-8">
+        Vous avez résolu toutes les énigmes et découvert les secrets du parc. Votre nom restera gravé dans les légendes du royaume !
+      </p>
       <button
-        onClick={onFinish}
-        className="font-magic font-bold py-3 px-8 rounded-full text-xl transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1"
-        style={{ 
-          backgroundColor: 'var(--accent-color)', 
-          color: 'var(--button-text-color)',
-          boxShadow: `0 0 15px var(--accent-color)`
-        }}
+        onClick={onRestart}
+        className="font-magic bg-yellow-500 hover:bg-yellow-400 text-purple-900 font-bold py-3 px-8 rounded-full text-xl transition-all duration-300 hover:shadow-xl hover:shadow-yellow-500/30 transform hover:-translate-y-1"
       >
-        Nouvelle Aventure
+        Recommencer l'Aventure
       </button>
     </div>
   );

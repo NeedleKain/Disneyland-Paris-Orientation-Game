@@ -25,7 +25,7 @@ const QuestSelectionScreen: React.FC<QuestSelectionScreenProps> = ({ land, onSel
           <button
             key={quest.id}
             onClick={() => onSelectQuest(quest)}
-            className="w-full text-left p-4 bg-black bg-opacity-20 hover:bg-black hover:bg-opacity-40 border rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+            className="w-full text-left p-4 bg-black/20 hover:bg-black/40 border rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
             style={{ borderColor: 'var(--primary-color)',  boxShadow: `0 0 10px var(--primary-color)` }}
           >
             <div className="flex items-center gap-4">

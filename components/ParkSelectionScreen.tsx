@@ -18,7 +18,7 @@ const ParkSelectionScreen: React.FC<ParkSelectionScreenProps> = ({ parks, onSele
           <button
             key={park.id}
             onClick={() => onSelectPark(park)}
-            className="w-full text-left p-4 bg-purple-900 bg-opacity-50 hover:bg-purple-800 hover:bg-opacity-70 border border-purple-400 rounded-lg transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:shadow-lg hover:shadow-purple-500/20"
+            className="w-full text-left p-4 bg-purple-900/50 hover:bg-purple-800/70 border border-purple-400 rounded-lg transition-all duration-300 transform hover:scale-105 hover:border-yellow-400 hover:shadow-lg hover:shadow-purple-500/20"
           >
             <div>
               <h2 className="font-bold text-2xl text-yellow-400 font-magic">{park.name}</h2>

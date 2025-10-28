@@ -147,7 +147,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
     setIsGeneratingImage(false);
   };
   
-  const inputClassName = `w-full bg-indigo-900 bg-opacity-50 border-2 rounded-lg p-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all duration-300 mb-4 ${
+  const inputClassName = `w-full bg-indigo-900/50 border-2 rounded-lg p-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all duration-300 mb-4 ${
     feedbackState === 'correct'
       ? 'border-green-500 ring-green-500'
       : feedbackState === 'incorrect'
@@ -198,11 +198,11 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
       </button>
 
       <div className="mt-4 flex flex-col sm:flex-row gap-2">
-        <button onClick={() => { setHint(riddle.hint); setMagicImage(null); }} className="flex-1 flex items-center justify-center gap-2 bg-transparent border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-purple-900 font-semibold py-2 px-4 rounded-lg transition-all duration-300 hover:shadow-md hover:shadow-yellow-500/20">
+        <button onClick={() => { setHint(riddle.hint); setMagicImage(null); }} className="flex-1 flex items-center justify-center gap-2 bg-transparent border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-purple-900 font-semibold py-2 px-4 rounded-lg transition-all duration-300 hover:shadow-md hover:shadow-yellow-500/20 animate-pulse-glow-yellow">
           <LightbulbIcon />
           Indice Classique
         </button>
-        <button onClick={handleGenerateMagicImage} disabled={isGeneratingImage} className="flex-1 flex items-center justify-center gap-2 bg-transparent border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-purple-900 font-semibold py-2 px-4 rounded-lg transition-all duration-300 disabled:opacity-50 hover:shadow-md hover:shadow-cyan-400/20">
+        <button onClick={handleGenerateMagicImage} disabled={isGeneratingImage} className="flex-1 flex items-center justify-center gap-2 bg-transparent border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-purple-900 font-semibold py-2 px-4 rounded-lg transition-all duration-300 disabled:opacity-50 hover:shadow-md hover:shadow-cyan-400/20 animate-pulse-glow-cyan">
           <SparkleIcon />
           {isGeneratingImage ? 'Création...' : 'Indice Visuel Magique'}
         </button>
@@ -220,7 +220,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
       </div>
       
       {hint && (
-        <div className="mt-4 p-4 bg-yellow-900 bg-opacity-50 border border-yellow-500 rounded-lg animate-fade-in">
+        <div className="mt-4 p-4 bg-yellow-900/50 border border-yellow-500 rounded-lg animate-fade-in">
           <p><span className="font-bold">Indice :</span> {hint}</p>
         </div>
       )}
@@ -232,7 +232,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
       )}
 
       {magicImage && (
-         <div className="mt-4 p-4 bg-cyan-900 bg-opacity-50 border border-cyan-400 rounded-lg animate-fade-in">
+         <div className="mt-4 p-4 bg-cyan-900/50 border border-cyan-400 rounded-lg animate-fade-in">
           <p className="font-bold text-cyan-300 mb-2">Vision Magique :</p>
           <img src={magicImage} alt="Indice visuel généré par IA" className="rounded-lg w-full h-auto object-cover" />
         </div>

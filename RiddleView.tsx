@@ -108,7 +108,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
   };
 
   return (
-    <div key={riddle.id} className="bg-black bg-opacity-30 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-2xl border border-purple-500 border-opacity-50 animate-fade-in-slow">
+    <div key={riddle.id} className="bg-black/30 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-2xl border border-purple-500/50 animate-fade-in-slow">
       <div className="text-center mb-6">
         <p className="text-yellow-400 font-bold">Énigme {progress.current} / {progress.total}</p>
         <div className="w-full bg-gray-700 rounded-full h-2.5 mt-2">
@@ -116,7 +116,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
         </div>
       </div>
       
-      <img src={riddle.image} alt={riddle.locationName} className="rounded-lg mb-6 w-full h-48 object-cover border-2 border-purple-400 border-opacity-50" />
+      <img src={riddle.image} alt={riddle.locationName} className="rounded-lg mb-6 w-full h-48 object-cover border-2 border-purple-400/50" />
 
       <p className="text-xl md:text-2xl text-center text-gray-100 leading-relaxed mb-6">
         {riddle.question}
@@ -127,7 +127,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
         value={answer}
         onChange={(e) => setAnswer(e.target.value)}
         placeholder="Votre réponse..."
-        className="w-full bg-indigo-900 bg-opacity-50 border-2 border-purple-400 rounded-lg p-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all duration-300 mb-4"
+        className="w-full bg-indigo-900/50 border-2 border-purple-400 rounded-lg p-3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-all duration-300 mb-4"
       />
       
       {feedback && <p className="text-center text-yellow-300 my-4 animate-pulse">{feedback}</p>}
@@ -157,7 +157,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
         <button 
           onClick={() => setIsMapVisible(prev => !prev)} 
           disabled={!position}
-          className="w-full flex items-center justify-center gap-2 bg-transparent border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-purple-900 font-semibold py-2 px-4 rounded-lg transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-green-400 disabled:text-opacity-50"
+          className="w-full flex items-center justify-center gap-2 bg-transparent border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-purple-900 font-semibold py-2 px-4 rounded-lg transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-transparent disabled:text-green-400/50"
         >
           <GlobeIcon />
           {isMapVisible ? "Cacher la Carte" : "Afficher la Carte"}
@@ -165,7 +165,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
       </div>
       
       {hint && !magicImage && (
-        <div className="mt-4 p-4 bg-yellow-900 bg-opacity-50 border border-yellow-500 rounded-lg">
+        <div className="mt-4 p-4 bg-yellow-900/50 border border-yellow-500 rounded-lg">
           <p><span className="font-bold">Indice :</span> {hint}</p>
         </div>
       )}
@@ -176,7 +176,7 @@ const RiddleView: React.FC<RiddleViewProps> = ({ riddle, onCorrect, progress }) 
         </div>
       )}
       {magicImage && (
-         <div className="mt-4 p-4 bg-cyan-900 bg-opacity-50 border border-cyan-400 rounded-lg">
+         <div className="mt-4 p-4 bg-cyan-900/50 border border-cyan-400 rounded-lg">
           <p className="font-bold text-cyan-300 mb-2">Vision Magique :</p>
           <img src={magicImage} alt="Indice visuel généré par IA" className="rounded-lg w-full h-auto object-cover" />
         </div>
