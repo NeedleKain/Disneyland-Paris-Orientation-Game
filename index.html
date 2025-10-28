@@ -97,8 +97,8 @@
 </head>
   <body>
     <div id="root"></div>
-    <!-- Modification du type de script pour qu'il soit traité par Babel -->
-    <script type="text/babel" data-type="module" src="./index.tsx"></script>
+    <!-- Modification du type de script pour qu'il soit traité par Babel, avec presets explicites -->
+    <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
