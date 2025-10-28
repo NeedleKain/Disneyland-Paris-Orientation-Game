@@ -92,10 +92,13 @@
   }
 }
 </script>
+<!-- Ajout de Babel Standalone pour transpiler le JSX/TSX dans le navigateur -->
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Modification du type de script pour qu'il soit traité par Babel -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
