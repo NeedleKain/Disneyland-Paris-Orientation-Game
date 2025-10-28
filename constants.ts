@@ -31,7 +31,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8719, longitude: 2.7763 },
           locationName: "Fenêtre de Card Walker, Main Street",
           hint: "Levez les yeux sur les fenêtres au-dessus de l'Emporium.",
-          image: '/mainstreet-extra1.jpg'
+          image: './mainstreet-extra1.jpg'
         },
         {
           id: 102,
@@ -40,7 +40,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8719, longitude: 2.7749 },
           locationName: "Phantom Manor",
           hint: "Cherchez le grand manoir qui surplombe la rivière à Frontierland.",
-          image: '/frontierland1.jpg'
+          image: './frontierland1.jpg'
         },
         {
           id: 103,
@@ -49,7 +49,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8722, longitude: 2.7738 },
           locationName: "Adventure Isle / Le Trésor de Barbossa",
           hint: "Explorez les grottes près du galion pirate à Adventureland.",
-          image: '/adventureland2.jpg'
+          image: './adventureland2.jpg'
         },
         {
           id: 104,
@@ -58,7 +58,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8745, longitude: 2.7780 },
           locationName: "Star Wars Hyperspace Mountain",
           hint: "Le grand canon bleu et or de Discoveryland.",
-          image: '/discoveryland1.jpg'
+          image: './discoveryland1.jpg'
         },
         {
           id: 105,
@@ -67,7 +67,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8725, longitude: 2.7761 },
           locationName: "La Tanière du Dragon",
           hint: "Descendez dans les souterrains du Château de la Belle au Bois Dormant.",
-          image: '/fantasyland3.jpg'
+          image: './fantasyland3.jpg'
         }
       ]
     },
@@ -98,7 +98,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8713, longitude: 2.7766 },
                 locationName: "Main Street Station",
                 hint: "C'est le tout premier bâtiment que vous traversez pour entrer dans le parc.",
-                image: '/mainstreet1.jpg'
+                image: './mainstreet1.jpg'
               },
               {
                 id: 2,
@@ -107,7 +107,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8716, longitude: 2.7761 },
                 locationName: "City Hall",
                 hint: "Son nom signifie 'Hôtel de Ville' en anglais.",
-                image: '/mainstreet2.jpg'
+                image: './mainstreet2.jpg'
               },
                {
                 id: 3,
@@ -116,7 +116,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8719, longitude: 2.7763 },
                 locationName: "Emporium",
                 hint: "Le nom de ce type de grand magasin est d'origine latine.",
-                image: '/mainstreet4.jpg'
+                image: './mainstreet4.jpg'
               },
               {
                 id: 4,
@@ -125,7 +125,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8719, longitude: 2.7761 },
                 locationName: "Flower Street",
                 hint: "Regardez sur le côté gauche de la rue en montant vers le château.",
-                image: '/mainstreet-extra1.jpg'
+                image: './mainstreet-extra1.jpg'
               },
             ]
           },
@@ -142,7 +142,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8722, longitude: 2.7767 },
                 locationName: "Casey's Corner",
                 hint: "Inspiré par le poème 'Casey at the Bat' sur le baseball.",
-                image: '/mainstreet3.jpg'
+                image: './mainstreet3.jpg'
               },
               {
                 id: 2,
@@ -151,7 +151,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8721, longitude: 2.7767 },
                 locationName: "The Ice Cream Company",
                 hint: "Le nom est écrit en grand sur la façade d'angle.",
-                image: '/mainstreet-extra2.jpg'
+                image: './mainstreet-extra2.jpg'
               },
               {
                 id: 3,
@@ -160,7 +160,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8721, longitude: 2.7766 },
                 locationName: "The Gibson Girl Ice Cream Parlour",
                 hint: "Mon nom évoque une ère de beauté et de sophistication du début du 20ème siècle.",
-                image: '/mainstreet-extra3.jpg'
+                image: './mainstreet-extra3.jpg'
               },
               {
                 id: 4,
@@ -169,7 +169,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8720, longitude: 2.7766 },
                 locationName: "Boardwalk Candy Palace",
                 hint: "Mon nom est un hommage aux promenades en bord de mer.",
-                image: '/mainstreet-extra4.jpg'
+                image: './mainstreet-extra4.jpg'
               }
             ]
           },
@@ -219,7 +219,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8728, longitude: 2.7753 },
                 locationName: "Le Carrousel de Lancelot",
                 hint: "Le nom d'un chevalier de la Table Ronde est associé à ce manège.",
-                image: '/fantasyland1.jpg'
+                image: './fantasyland1.jpg'
               },
               {
                 id: 2,
@@ -228,7 +228,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8735, longitude: 2.7758 },
                 locationName: "Mad Hatter's Tea Cups",
                 hint: "Lewis Carroll est l'auteur de cette histoire.",
-                image: '/fantasyland2.jpg'
+                image: './fantasyland2.jpg'
               },
               {
                 id: 3,
@@ -237,7 +237,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8725, longitude: 2.7761 },
                 locationName: "Le Château de la Belle au Bois Dormant",
                 hint: "Visitez la galerie à l'étage ou descendez dans la tanière pour trouver la réponse.",
-                image: '/fantasyland3.jpg'
+                image: './fantasyland3.jpg'
               },
               {
                 id: 4,
@@ -246,7 +246,7 @@ export const PARKS: Park[] = [
                 location: { latitude: 48.8729, longitude: 2.7756 },
                 locationName: "Auberge de Cendrillon",
                 hint: "Un repas en compagnie de personnages de contes de fées.",
-                image: '/fantasyland4.jpg'
+                image: './fantasyland4.jpg'
               }
             ]
           },
@@ -321,7 +321,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8687, longitude: 2.7819 },
           locationName: "Restaurant en Coulisse",
           hint: "Ce grand restaurant se trouve à l'intérieur de Studio 1, à Front Lot.",
-          image: '/frontlot1.jpg'
+          image: './frontlot1.jpg'
         },
         {
           id: 202,
@@ -330,7 +330,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8690, longitude: 2.7797 },
           locationName: "Crush's Coaster",
           hint: "Cherchez le grand bâtiment bleu avec des coraux à Toon Studio.",
-          image: '/toonstudio1.jpg'
+          image: './toonstudio1.jpg'
         },
         {
           id: 203,
@@ -339,7 +339,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8687, longitude: 2.7808 },
           locationName: "Ratatouille: L'Aventure Totalement Toquée de Rémy",
           hint: "Cette attraction se trouve au centre de la Place de Rémy, dans Worlds of Pixar.",
-          image: '/pixar1.jpg'
+          image: './pixar1.jpg'
         },
         {
           id: 204,
@@ -348,7 +348,7 @@ export const PARKS: Park[] = [
           location: { latitude: 48.8702, longitude: 2.7820 },
           locationName: "Avengers Assemble: Flight Force",
           hint: "L'attraction la plus rapide d'Avengers Campus.",
-          image: '/avengers2.jpg'
+          image: './avengers2.jpg'
         }
       ]
     },
@@ -445,47 +445,47 @@ const flattenPark = (park: any) => ({
 const originalQuests = [
   // Fantasyland
   { landId: 'fantasyland', questId: 'fantasyland-classiques', riddles: [
-      { id: 1, question: "Je suis une cour en mouvement perpétuel...", answer: "Le Carrousel de Lancelot", location: { latitude: 48.8728, longitude: 2.7753 }, locationName: "Le Carrousel de Lancelot", hint: "...", image: '/fantasyland1.jpg' },
-      { id: 2, question: "Ici, la force centrifuge est reine...", answer: "Mad Hatter's Tea Cups", location: { latitude: 48.8735, longitude: 2.7758 }, locationName: "Mad Hatter's Tea Cups", hint: "...", image: '/fantasyland2.jpg' },
-      { id: 3, question: "Je m'inspire de Neuschwanstein...", answer: "Le Château de la Belle au Bois Dormant", location: { latitude: 48.8725, longitude: 2.7761 }, locationName: "Le Château de la Belle au Bois Dormant", hint: "...", image: '/fantasyland3.jpg' },
-      { id: 4, question: "Dans ma cour, un carrosse en forme de citrouille...", answer: "Auberge de Cendrillon", location: { latitude: 48.8729, longitude: 2.7756 }, locationName: "Auberge de Cendrillon", hint: "...", image: '/fantasyland4.jpg' }
+      { id: 1, question: "Je suis une cour en mouvement perpétuel...", answer: "Le Carrousel de Lancelot", location: { latitude: 48.8728, longitude: 2.7753 }, locationName: "Le Carrousel de Lancelot", hint: "...", image: './fantasyland1.jpg' },
+      { id: 2, question: "Ici, la force centrifuge est reine...", answer: "Mad Hatter's Tea Cups", location: { latitude: 48.8735, longitude: 2.7758 }, locationName: "Mad Hatter's Tea Cups", hint: "...", image: './fantasyland2.jpg' },
+      { id: 3, question: "Je m'inspire de Neuschwanstein...", answer: "Le Château de la Belle au Bois Dormant", location: { latitude: 48.8725, longitude: 2.7761 }, locationName: "Le Château de la Belle au Bois Dormant", hint: "...", image: './fantasyland3.jpg' },
+      { id: 4, question: "Dans ma cour, un carrosse en forme de citrouille...", answer: "Auberge de Cendrillon", location: { latitude: 48.8729, longitude: 2.7756 }, locationName: "Auberge de Cendrillon", hint: "...", image: './fantasyland4.jpg' }
   ]},
   // Adventureland
   { landId: 'adventureland', questId: 'adventureland-pirates', riddles: [
-       { id: 1, question: "L'odeur de l'eau bromée...", answer: "Pirates of the Caribbean", location: { latitude: 48.8721, longitude: 2.7740 }, locationName: "Pirates of the Caribbean", hint: "...", image: '/adventureland1.jpg' },
-       { id: 2, question: "Je suis un 'Disneyodendron'...", answer: "La Cabane des Robinson", location: { latitude: 48.8715, longitude: 2.7745 }, locationName: "La Cabane des Robinson", hint: "...", image: '/adventureland2.jpg' },
-       { id: 3, question: "Je suis une taverne à la lueur des flambeaux...", answer: "Captain Jack's - Restaurant des Pirates", location: { latitude: 48.8721, longitude: 2.7740 }, locationName: "Captain Jack's - Restaurant des Pirates", hint: "...", image: '/adventureland3.jpg' }
+       { id: 1, question: "L'odeur de l'eau bromée...", answer: "Pirates of the Caribbean", location: { latitude: 48.8721, longitude: 2.7740 }, locationName: "Pirates of the Caribbean", hint: "...", image: './adventureland1.jpg' },
+       { id: 2, question: "Je suis un 'Disneyodendron'...", answer: "La Cabane des Robinson", location: { latitude: 48.8715, longitude: 2.7745 }, locationName: "La Cabane des Robinson", hint: "...", image: './adventureland2.jpg' },
+       { id: 3, question: "Je suis une taverne à la lueur des flambeaux...", answer: "Captain Jack's - Restaurant des Pirates", location: { latitude: 48.8721, longitude: 2.7740 }, locationName: "Captain Jack's - Restaurant des Pirates", hint: "...", image: './adventureland3.jpg' }
   ]},
   // Frontierland
   { landId: 'frontierland', questId: 'frontierland-legends', riddles: [
-       { id: 1, question: "Ma ballade commence dans un ascenseur...", answer: "Phantom Manor", location: { latitude: 48.8719, longitude: 2.7749 }, locationName: "Phantom Manor", hint: "...", image: '/frontierland1.jpg' },
-       { id: 2, question: "Mon fondateur, Henry Ravenswood...", answer: "Big Thunder Mountain", location: { latitude: 48.8724, longitude: 2.7740 }, locationName: "Big Thunder Mountain", hint: "...", image: '/frontierland2.jpg' },
-       { id: 3, question: "Mes portes battantes s'ouvrent...", answer: "The Lucky Nugget Saloon", location: { latitude: 48.8725, longitude: 2.7749 }, locationName: "The Lucky Nugget Saloon", hint: "...", image: '/frontierland3.jpg' }
+       { id: 1, question: "Ma ballade commence dans un ascenseur...", answer: "Phantom Manor", location: { latitude: 48.8719, longitude: 2.7749 }, locationName: "Phantom Manor", hint: "...", image: './frontierland1.jpg' },
+       { id: 2, question: "Mon fondateur, Henry Ravenswood...", answer: "Big Thunder Mountain", location: { latitude: 48.8724, longitude: 2.7740 }, locationName: "Big Thunder Mountain", hint: "...", image: './frontierland2.jpg' },
+       { id: 3, question: "Mes portes battantes s'ouvrent...", answer: "The Lucky Nugget Saloon", location: { latitude: 48.8725, longitude: 2.7749 }, locationName: "The Lucky Nugget Saloon", hint: "...", image: './frontierland3.jpg' }
   ]},
    // Discoveryland
   { landId: 'discoveryland', questId: 'discoveryland-visions', riddles: [
-       { id: 1, question: "Mon dôme de cuivre...", answer: "Hyperspace Mountain", location: { latitude: 48.8745, longitude: 2.7780 }, locationName: "Star Wars Hyperspace Mountain", hint: "...", image: '/discoveryland1.jpg' },
-       { id: 2, question: "Je ne suis pas une attraction à sensations...", answer: "Les Mystères du Nautilus", location: { latitude: 48.8739, longitude: 2.7777 }, locationName: "Les Mystères du Nautilus", hint: "...", image: '/discoveryland2.jpg' },
-       { id: 3, question: "Sous le dirigeable de l'Hyperion...", answer: "Café Hyperion", location: { latitude: 48.8741, longitude: 2.7785 }, locationName: "Café Hyperion", hint: "...", image: '/discoveryland3.jpg' }
+       { id: 1, question: "Mon dôme de cuivre...", answer: "Hyperspace Mountain", location: { latitude: 48.8745, longitude: 2.7780 }, locationName: "Star Wars Hyperspace Mountain", hint: "...", image: './discoveryland1.jpg' },
+       { id: 2, question: "Je ne suis pas une attraction à sensations...", answer: "Les Mystères du Nautilus", location: { latitude: 48.8739, longitude: 2.7777 }, locationName: "Les Mystères du Nautilus", hint: "...", image: './discoveryland2.jpg' },
+       { id: 3, question: "Sous le dirigeable de l'Hyperion...", answer: "Café Hyperion", location: { latitude: 48.8741, longitude: 2.7785 }, locationName: "Café Hyperion", hint: "...", image: './discoveryland3.jpg' }
   ]},
   // Main Street
   { landId: 'mainstreet', questId: 'mainstreet-architecture', riddles: [
-       { id: 1, question: "Je suis le premier acte...", answer: "Main Street Station", location: { latitude: 48.8713, longitude: 2.7766 }, locationName: "Main Street Station", hint: "...", image: '/mainstreet1.jpg' },
-       { id: 2, question: "Je suis le cœur administratif...", answer: "City Hall", location: { latitude: 48.8716, longitude: 2.7761 }, locationName: "City Hall", hint: "...", image: '/mainstreet2.jpg' },
-       { id: 3, question: "Je suis le temple du 'home run'...", answer: "Casey's Corner", location: { latitude: 48.8722, longitude: 2.7767 }, locationName: "Casey's Corner", hint: "...", image: '/mainstreet3.jpg' },
-       { id: 4, question: "Mes vitrines animées...", answer: "Emporium", location: { latitude: 48.8719, longitude: 2.7763 }, locationName: "Emporium", hint: "...", image: '/mainstreet4.jpg' }
+       { id: 1, question: "Je suis le premier acte...", answer: "Main Street Station", location: { latitude: 48.8713, longitude: 2.7766 }, locationName: "Main Street Station", hint: "...", image: './mainstreet1.jpg' },
+       { id: 2, question: "Je suis le cœur administratif...", answer: "City Hall", location: { latitude: 48.8716, longitude: 2.7761 }, locationName: "City Hall", hint: "...", image: './mainstreet2.jpg' },
+       { id: 3, question: "Je suis le temple du 'home run'...", answer: "Casey's Corner", location: { latitude: 48.8722, longitude: 2.7767 }, locationName: "Casey's Corner", hint: "...", image: './mainstreet3.jpg' },
+       { id: 4, question: "Mes vitrines animées...", answer: "Emporium", location: { latitude: 48.8719, longitude: 2.7763 }, locationName: "Emporium", hint: "...", image: './mainstreet4.jpg' }
   ]},
   // Pixar
   { landId: 'pixar', questId: 'pixar-giants', riddles: [
-       { id: 1, question: "Ma technologie est sans rail...", answer: "Ratatouille", location: { latitude: 48.8687, longitude: 2.7808 }, locationName: "Ratatouille: L'Aventure Totalement Toquée de Rémy", hint: "...", image: '/pixar1.jpg' },
-       { id: 2, question: "Je suis l'incarnation d'un jouet Mattel...", answer: "RC Racer", location: { latitude: 48.8682, longitude: 2.7792 }, locationName: "RC Racer", hint: "...", image: '/pixar2.jpg' },
-       { id: 3, question: "Je suis le prolongement d'une aventure...", answer: "Bistrot Chez Rémy", location: { latitude: 48.8688, longitude: 2.7806 }, locationName: "Bistrot Chez Rémy", hint: "...", image: '/pixar3.jpg' }
+       { id: 1, question: "Ma technologie est sans rail...", answer: "Ratatouille", location: { latitude: 48.8687, longitude: 2.7808 }, locationName: "Ratatouille: L'Aventure Totalement Toquée de Rémy", hint: "...", image: './pixar1.jpg' },
+       { id: 2, question: "Je suis l'incarnation d'un jouet Mattel...", answer: "RC Racer", location: { latitude: 48.8682, longitude: 2.7792 }, locationName: "RC Racer", hint: "...", image: './pixar2.jpg' },
+       { id: 3, question: "Je suis le prolongement d'une aventure...", answer: "Bistrot Chez Rémy", location: { latitude: 48.8688, longitude: 2.7806 }, locationName: "Bistrot Chez Rémy", hint: "...", image: './pixar3.jpg' }
   ]},
   // Avengers
   { landId: 'avengers', questId: 'avengers-recruitment', riddles: [
-       { id: 1, question: "Ici, vos bras deviennent des lance-toiles...", answer: "Spider-Man W.E.B. Adventure", location: { latitude: 48.8697, longitude: 2.7816 }, locationName: "Spider-Man W.E.B. Adventure", hint: "...", image: '/avengers1.jpg' },
-       { id: 2, question: "Mon ossature est celle d'un ancien concert de rock...", answer: "Avengers Assemble: Flight Force", location: { latitude: 48.8702, longitude: 2.7820 }, locationName: "Avengers Assemble: Flight Force", hint: "...", image: '/avengers2.jpg' },
-       { id: 3, question: "Je suis une ancienne chaîne de montage...", answer: "Stark Factory", location: { latitude: 48.8699, longitude: 2.7823 }, locationName: "Stark Factory", hint: "...", image: '/avengers3.jpg' }
+       { id: 1, question: "Ici, vos bras deviennent des lance-toiles...", answer: "Spider-Man W.E.B. Adventure", location: { latitude: 48.8697, longitude: 2.7816 }, locationName: "Spider-Man W.E.B. Adventure", hint: "...", image: './avengers1.jpg' },
+       { id: 2, question: "Mon ossature est celle d'un ancien concert de rock...", answer: "Avengers Assemble: Flight Force", location: { latitude: 48.8702, longitude: 2.7820 }, locationName: "Avengers Assemble: Flight Force", hint: "...", image: './avengers2.jpg' },
+       { id: 3, question: "Je suis une ancienne chaîne de montage...", answer: "Stark Factory", location: { latitude: 48.8699, longitude: 2.7823 }, locationName: "Stark Factory", hint: "...", image: './avengers3.jpg' }
   ]}
 ];
 
@@ -540,7 +540,7 @@ PARKS.forEach(park => {
           location: { latitude: 48.8725, longitude: 2.7761 },
           locationName: "Le Coeur du Parc",
           hint: "L'imagination est la clé.",
-          image: '/background.jpg'
+          image: './background.jpg'
         });
       }
     });

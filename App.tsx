@@ -164,7 +164,7 @@ function App() {
   };
 
   return (
-    <main className="relative min-h-screen w-full flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat transition-colors duration-1000" style={{ backgroundImage: "url('/background.jpg')" }}>
+    <main className="relative min-h-screen w-full flex items-center justify-center p-4 bg-cover bg-center bg-no-repeat transition-colors duration-1000" style={{ backgroundImage: "url('./background.jpg')" }}>
       <div className="absolute inset-0 background-overlay z-0"></div>
       <div className="relative z-10 w-full max-w-md mx-auto">
         {renderContent()}
