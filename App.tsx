@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import WelcomeScreen from './components/WelcomeScreen';
-import ParkSelectionScreen from './components/ParkSelectionScreen';
-import LandSelectionScreen from './components/LandSelectionScreen';
-import QuestSelectionScreen from './components/QuestSelectionScreen';
-import GameScreen from './components/GameScreen';
-import { PARKS } from './constants';
-import type { Park, Land, Quest } from './types';
+import WelcomeScreen from './components/WelcomeScreen.tsx';
+import ParkSelectionScreen from './components/ParkSelectionScreen.tsx';
+import LandSelectionScreen from './components/LandSelectionScreen.tsx';
+import QuestSelectionScreen from './components/QuestSelectionScreen.tsx';
+import GameScreen from './components/GameScreen.tsx';
+import { PARKS } from './constants.ts';
+import type { Park, Land, Quest } from './types.ts';
 
 type GameState = 'welcome' | 'park_selection' | 'land_selection' | 'quest_selection' | 'playing';
 

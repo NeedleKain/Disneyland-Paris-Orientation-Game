@@ -1,8 +1,8 @@
 import React from 'react';
-import RiddleView from './RiddleView';
-import CompletionScreen from './CompletionScreen';
-import type { Quest } from '../types';
-import { MapIcon } from './icons/MapIcon';
+import RiddleView from './RiddleView.tsx';
+import CompletionScreen from './CompletionScreen.tsx';
+import type { Quest } from '../types.ts';
+import { MapIcon } from './icons/MapIcon.tsx';
 
 interface GameScreenProps {
   quest: Quest;

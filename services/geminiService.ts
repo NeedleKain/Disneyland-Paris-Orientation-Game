@@ -1,6 +1,7 @@
 
+
 import { GoogleGenAI } from "@google/genai";
-import type { Riddle } from '../types';
+import type { Riddle } from '../types.ts';
 
 export const generateMagicImageHint = async (riddle: Riddle): Promise<string | null> => {
   if (!process.env.API_KEY) {

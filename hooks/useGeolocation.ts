@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import type { Coordinates } from '../types';
+import type { Coordinates } from '../types.ts';
 
 export const useGeolocation = () => {
   const [position, setPosition] = useState<Coordinates | null>(null);

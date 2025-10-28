@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Park } from '../types';
+import type { Park } from '../types.ts';
 
 interface ParkSelectionScreenProps {
   parks: Park[];

@@ -1,15 +1,15 @@
-import type { Park } from './types';
+import type { Park } from './types.ts';
 import React from 'react';
-import { CastleIcon } from './components/icons/lands/CastleIcon';
-import { PirateIcon } from './components/icons/lands/PirateIcon';
-import { CowboyIcon } from './components/icons/lands/CowboyIcon';
-import { RocketIcon } from './components/icons/lands/RocketIcon';
-import { VictorianIcon } from './components/icons/lands/VictorianIcon';
-import { CameraIcon } from './components/icons/lands/CameraIcon';
-import { CrayonIcon } from './components/icons/lands/CrayonIcon';
-import { BouncingBallIcon } from './components/icons/lands/BouncingBallIcon';
-import { ShieldIcon } from './components/icons/lands/ShieldIcon';
-import { CompassIcon } from './components/icons/CompassIcon';
+import { CastleIcon } from './components/icons/lands/CastleIcon.tsx';
+import { PirateIcon } from './components/icons/lands/PirateIcon.tsx';
+import { CowboyIcon } from './components/icons/lands/CowboyIcon.tsx';
+import { RocketIcon } from './components/icons/lands/RocketIcon.tsx';
+import { VictorianIcon } from './components/icons/lands/VictorianIcon.tsx';
+import { CameraIcon } from './components/icons/lands/CameraIcon.tsx';
+import { CrayonIcon } from './components/icons/lands/CrayonIcon.tsx';
+import { BouncingBallIcon } from './components/icons/lands/BouncingBallIcon.tsx';
+import { ShieldIcon } from './components/icons/lands/ShieldIcon.tsx';
+import { CompassIcon } from './components/icons/CompassIcon.tsx';
 
 export const ACCEPTANCE_RADIUS_METERS = 50;
 

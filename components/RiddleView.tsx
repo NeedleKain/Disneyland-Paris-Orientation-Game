@@ -1,13 +1,13 @@
 import React, { useState, useCallback, useEffect } from 'react';
-import { useGeolocation } from '../hooks/useGeolocation';
-import { generateMagicImageHint } from '../services/geminiService';
-import { ACCEPTANCE_RADIUS_METERS } from '../constants';
-import type { Riddle, Coordinates } from '../types';
-import { SparkleIcon } from './icons/SparkleIcon';
-import { LightbulbIcon } from './icons/LightbulbIcon';
-import { MapPinIcon } from './icons/MapPinIcon';
-import { GlobeIcon } from './icons/GlobeIcon';
-import MapComponent from './MapComponent';
+import { useGeolocation } from '../hooks/useGeolocation.ts';
+import { generateMagicImageHint } from '../services/geminiService.ts';
+import { ACCEPTANCE_RADIUS_METERS } from '../constants.ts';
+import type { Riddle, Coordinates } from '../types.ts';
+import { SparkleIcon } from './icons/SparkleIcon.tsx';
+import { LightbulbIcon } from './icons/LightbulbIcon.tsx';
+import { MapPinIcon } from './icons/MapPinIcon.tsx';
+import { GlobeIcon } from './icons/GlobeIcon.tsx';
+import MapComponent from './MapComponent.tsx';
 
 interface RiddleViewProps {
   riddle: Riddle;

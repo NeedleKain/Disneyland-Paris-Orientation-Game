@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Land, Quest } from '../types';
-import { MapIcon } from './icons/MapIcon';
+import type { Land, Quest } from '../types.ts';
+import { MapIcon } from './icons/MapIcon.tsx';
 
 interface QuestSelectionScreenProps {
   land: Land;

@@ -1,7 +1,7 @@
 import React from 'react';
-import type { Park, Land, Quest } from '../types';
-import { MapIcon } from './icons/MapIcon';
-import { CompassIcon } from './icons/CompassIcon';
+import type { Park, Land, Quest } from '../types.ts';
+import { MapIcon } from './icons/MapIcon.tsx';
+import { CompassIcon } from './icons/CompassIcon.tsx';
 
 interface LandSelectionScreenProps {
   park: Park;

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
-import type { Coordinates } from '../types';
+import type { Coordinates } from '../types.ts';
 
 interface MapComponentProps {
   userPosition: Coordinates;
